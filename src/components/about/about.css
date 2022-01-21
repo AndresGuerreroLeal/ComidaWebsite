@@ -1,0 +1,30 @@
+.about__data {
+  text-align: center;
+}
+
+.about__descripcion {
+  margin-bottom: 1.5rem;
+}
+
+.about__img {
+  width: 300px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+@media screen and (min-width: 576px) {
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .about__data,
+  .about__initial {
+    text-align: initial;
+  }
+
+  .about__img,
+  .app__img {
+    width: 500px;
+  }
+}

@@ -1,0 +1,13 @@
+.servicios__content {
+  text-align: center;
+}
+
+.servicios__titulo {
+  font-size:1rem;
+  color: #393939;
+  margin-bottom: 1rem;
+}
+
+.servicios__descripcion {
+  padding: 0 1.5rem;
+}

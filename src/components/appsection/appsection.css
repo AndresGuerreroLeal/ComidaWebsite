@@ -1,0 +1,52 @@
+.app__data {
+  text-align: center;
+}
+
+.app__descripcion {
+  margin-bottom: var(--mb-5);
+  text-align: center;
+}
+
+.app__stores {
+  margin-bottom: var(--mb-4);
+  display: flex;
+  justify-content: center;
+}
+
+.app__store {
+  width: 120px;
+  margin: 0 0.5rem;
+}
+
+.app__img {
+  width: 230px;
+  justify-self: center;
+}
+
+@media screen and (min-width: 576px) {
+  .app__container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    align-items: center !important;
+  }
+
+  .app__data,
+  .app__initial {
+    text-align: initial !important;
+  }
+
+  .app__img {
+    width: 500px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app__store {
+    margin: 0 var(--mb-1) 0 0;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .app__container {
+    column-gap: 7rem;
+  }
+}

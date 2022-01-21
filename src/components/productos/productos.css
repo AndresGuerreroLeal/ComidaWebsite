@@ -1,0 +1,22 @@
+.productos__container {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .productos__container {
+    height: 100vh;
+    justify-items: center;
+  }
+
+  .productos__container {
+    margin-top: var(--mb-6);
+  }
+
+  .productos__container {
+    grid-template-columns: repeat(3, 210px);
+    column-gap: 4rem;
+  }
+  .producto__content {
+    padding: 1.5rem;
+  }
+}
