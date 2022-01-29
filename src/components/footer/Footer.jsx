@@ -56,8 +56,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
-        <p class="footer__copy">&#169; 2021 Andres Guerrero.</p>
       </footer>
     </>
   );
